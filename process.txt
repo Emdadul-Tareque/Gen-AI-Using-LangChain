@@ -1,0 +1,27 @@
+
+1. Install and Activate Virtual Environment 
+python3 -m venv venv 
+source venv/bin/activate 
+
+2. Install Requirements
+check requirments.txt 
+pip install -r requirements.txt 
+
+3. Install Gemeni 
+pip install langchain langchain-google-genai google-generativeai
+
+4.Install Pytorch Cpu version
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+5. Chatgpt Chat link: https://chatgpt.com/share/68f3e02b-f2f0-800e-b57b-89bb39add014 
+
+6. Uninstall
+pip uninstall -y langchain langchain-core langchain-google-genai langchain-huggingface pydantic
+
+
+7. Install 
+pip install pydantic==1.10.15
+pip install langchain==0.2.14
+pip install langchain-core==0.2.27
+pip install langchain-google-genai==1.0.8
+pip install langchain-huggingface==0.0.3

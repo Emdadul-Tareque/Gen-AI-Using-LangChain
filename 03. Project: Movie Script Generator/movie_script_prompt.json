@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "language",
+        "movie_type",
+        "script_length"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "Write a {script_length} line {movie_type} movie script in {language})",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
