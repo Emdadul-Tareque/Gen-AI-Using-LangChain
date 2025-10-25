@@ -1,0 +1,12 @@
+1. create a new folder 
+2. open it in vs code
+3. create a new venv
+	python -m venv venv
+4. active venv 
+	venv\bin\Activate
+5. vreate the requirements.txt
+6. install packages from requieements.txt
+	pip install -r requirements.txt
+7. verify Langchain installation
+	pip show langchain
+	pip list | grep langchain

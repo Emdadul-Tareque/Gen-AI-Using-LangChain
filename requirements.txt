@@ -1,49 +1,33 @@
-# LangChain Core
-langchain
-langchain-core
+# Core LangChain
+langchain==1.0.2
+langchain-core==1.0.1
 
-# OpenAI Integration
-langchain-openai
-openai
+# OpenAI integration
+langchain-openai==1.0.1
+openai==0.27.11
 
-# Anthropic Integration
-langchain-anthropic
+# Google Generative AI integration
+langchain-google-genai==0.0.1
 
-# Google Gemini (PaLM) Integration
-langchain-google-genai
-google-generativeai
+# Anthropic integration
+langchain-anthropic==1.0.0
 
-# Hugging Face Integration
-langchain-huggingface
-transformers
-huggingface-hub
+# HuggingFace integration
+langchain-huggingface==1.0.0
+transformers==4.34.0
+torch==2.1.0
 
-# Environment Variable Management
-python-dotenv
+# Data handling
+pandas==2.1.0
+numpy==1.26.0
 
-# Machine Learning Utilities
-numpy
-scikit-learn
+# Environment variables
+python-dotenv==1.0.1
 
-# === Core dependencies ===
-langchain==0.2.11
-langchain-core==0.2.23
-langchain-google-genai==1.0.7
-google-generativeai==0.7.2
+# Requests and async
+requests==2.31.0
+aiohttp==3.9.5
 
-# === Optional but recommended ===
-python-dotenv==1.0.1     # for .env file support
-tqdm==4.66.5             # progress bar (used internally by langchain)
-requests==2.32.3         # API calls
-pydantic==1.10.15         # compatibility with langchain_core.pydantic_v1
-
-# === Optional for embedding or extra features ===
-numpy>=1.24.0
-torch>=2.1.0              # CPU-only (no CUDA)
-
-# === Core dependencies ===
-langchain==0.2.14
-langchain-core==0.2.27
-langchain-community==0.2.11
-langchain-huggingface==0.0.3
-pydantic==1.10.15
+# Pydantic for validation
+pydantic==2.5.1
+pydantic-settings==2.5.1
