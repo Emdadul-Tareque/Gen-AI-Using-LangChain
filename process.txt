@@ -14,7 +14,7 @@ pip install langchain langchain-google-genai google-generativeai
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 5. Chatgpt Chat link: https://chatgpt.com/share/68f3e02b-f2f0-800e-b57b-89bb39add014 
-
+ gemini link: https://gemini.google.com/share/db9c86717793 
 6. Uninstall
 pip uninstall -y langchain langchain-core langchain-google-genai langchain-huggingface pydantic
 

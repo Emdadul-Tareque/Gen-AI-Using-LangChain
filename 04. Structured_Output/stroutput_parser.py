@@ -17,7 +17,7 @@ template2 = PromptTemplate(
     template="Summarize the following report in 5 lines:\n{report}"
 ) 
 
-chain = template1| model| output_parser | template1 | model | output_parser
+chain = template1| model| output_parser | template2 | model | output_parser
 
 response = chain.invoke({'topic': 'Climate Change'})
 
